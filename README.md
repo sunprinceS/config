@@ -11,7 +11,7 @@ using [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 
 ### prompt theme
-sunprinceS.zsh-theme
+[sunprinceS.zsh-theme](https://github.com/sunprinceS/config/blob/master/theme/sunprinceS.zsh-theme)
 
 ## Tmux (from [LeoMao's dotfiles](https://github.com/leomao/dotfiles))
 
