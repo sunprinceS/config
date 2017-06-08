@@ -1,0 +1,56 @@
+[user]
+	email = sunprince12014@gmail.com
+	name = TonyHsu
+[core]
+  excludesfile=~/.gitignore
+[alias]
+  cl = clone
+  rmo = remote
+	cm = commit
+  ph = push
+  pl = pull
+  rb = rebase
+  chp = cherry-pick
+	st = status
+  fc = fetch
+  mg = merge
+  br=branch -v
+	co = checkout
+	rs = reset
+  us = reset HEAD -- #unstage
+  ss = stash
+  dt = difftool
+  la = log --date-order --graph --format=format:'%C(red)%h%Creset -%C(yellow)%d%Creset %C(bold blue)<%an>%Creset%n          %s %Cgreen(%cr)' --abbrev-commit --date=relative --all
+  lb = log --date-order --graph --format=format:'%C(red)%h%Creset -%C(yellow)%d%Creset %C(bold blue)<%an>%Creset%n          %s %Cgreen(%cr)' --abbrev-commit --date=relative --branches
+  lg = log --date-order --graph --format=format:'%C(red)%h%Creset -%C(yellow)%d%Creset %C(bold blue)<%an>%Creset%n          %s %Cgreen(%cr)' --abbrev-commit --date=relative
+	l = log --pretty=oneline --abbrev-commit --graph --decorate --summary
+	who=shortlog -n -s --no-merges
+	g=grep -n --color -E
+	nb= checkout -b
+[pager]
+  pager = diff-so-fancy | less -RFX
+  show = diff-so-fancy | less -RFX
+[merge]
+[push]
+	default = tracking
+[branch]
+	autosetuprebase = always
+[color]
+	ui=true
+[color "diff"]
+	meta = yellow bold
+	commit = green bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red 88
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[merge]
+	tool = vimdiff
+[mergetool]
+  keepBackup = false
+[help]
