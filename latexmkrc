@@ -1,1 +1,1 @@
-pdflatex = 'pdflatex -synctex=1 %O %S
+$pdflatex = 'xelatex -synctex=1 -interaction=nonstopmode --shell-escape %O %S';
