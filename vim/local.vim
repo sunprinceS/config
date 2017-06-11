@@ -1,4 +1,8 @@
 " Common
+
+set wb
+set swapfile
+set dir=~/vim_tmp
 set nornu
 nnoremap <leader>ev :e! $MYVIMRC<CR>
 set termencoding=utf8
@@ -53,5 +57,3 @@ inoremap <silent><F8> <Esc>:TagbarToggle<CR>
 " Undotree
 unmap <F3>
 noremap <silent><F3> <Esc>:UndotreeToggle<CR>
-
-let g:tmux_navigator_no_mappings = 1

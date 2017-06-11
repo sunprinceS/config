@@ -1,5 +1,4 @@
 Plug 'scrooloose/nerdtree'
-Plug 'christoomey/vim-tmux-navigator'
 Plug 'vim-scripts/mru.vim'
 "Plug 'SirVer/ultisnips'
 Plug 'MarcWeber/vim-addon-mw-utils'
